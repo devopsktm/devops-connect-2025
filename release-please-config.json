@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    {
+      "type": "node-workspace",
+      "packageManager": "pnpm"
+    }
+  ],
+  "packages": {
+    "apps/docs": {
+      "release-type": "node",
+      "package-name": "docs"
+    },
+    "apps/web": {
+      "release-type": "node",
+      "package-name": "web"
+    },
+    "packages/ui": {
+      "release-type": "node",
+      "component": "ui"
+    }
+  },
+  "include-component-in-tag": true,
+  "include-v-in-tag": true,
+  "$Schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
