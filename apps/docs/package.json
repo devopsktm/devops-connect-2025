@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@devopsktm/docs",
   "version": "1.1.0",
   "type": "module",
   "private": true,
